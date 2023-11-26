@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #card_2,
 #home .card_bottom,
 #home .card_top {
