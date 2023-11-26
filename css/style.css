@@ -60,7 +60,8 @@ body {
 }
 
 .wrapper {
-    width: 100%;
+    max-width: 576px;
+    margin: 0 auto;
     overflow: hidden;
     padding: 8px 6px 14px 5px
 }
@@ -217,8 +218,10 @@ header ul .text {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: auto
+    right: 0;
+    margin: 0 auto;
+    width: 262px;
+    height: 386px;
 }
 
 #home .card_bottom .logo_1 {
@@ -241,6 +244,10 @@ header ul .text {
     text-align: center;
     font-size: 18px;
     margin-top: 7px
+}
+
+#home .card_bottom .text_wrapper .logo_2 {
+    transform: translate( 53px, -13px)
 }
 
 .discount_card {
@@ -529,18 +536,23 @@ footer ul li h4 {
     background: #f1f1f1
 }
 
+.problem .problem_in {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
 .problem h4 {
-    max-width: 196px;
+    margin: 0 auto 12px auto;
+    max-width: 100%;
     color: #1664fd;
-    font-size: 12px;
-    margin-bottom: 12px
+    font-size: 16px;
 }
 
 .problem h5 {
-    max-width: 174px;
+    margin: 0 auto 23px auto;
+    max-width: 100%;
     color: #3a495a;
-    font-size: 12px;
-    margin-bottom: 23px
+    font-size: 15px;
 }
 
 .problem ul li {
@@ -551,10 +563,11 @@ footer ul li h4 {
 }
 
 .problem ul li .problem_img {
+    flex-shrink: 0;
     display: flex;
     align-items: center;
-    width: 31px;
     justify-content: center;
+    width: 31px;
     height: 31px;
     border-radius: 50%;
     background-color: #fff
@@ -571,9 +584,9 @@ footer ul li h4 {
 }
 
 .problem ul li span {
-    max-width: 171px;
-    color: #3c4b5e;
-    font-size: 12px
+    max-width: 100%;
+    color: #000;
+    font-size: 14px
 }
 
 .effekt,
@@ -585,7 +598,7 @@ footer ul li h4 {
 
 .effekt h3 {
     color: #1664fd;
-    font-size: 12px;
+    font-size: 19px;
     margin-bottom: 9px
 }
 
@@ -623,7 +636,7 @@ footer ul li h4 {
 
 .other_effekt h4 {
     color: #1664fd;
-    font-size: 12px
+    font-size: 19px
 }
 
 .other_effekt ul {
@@ -703,9 +716,12 @@ footer ul li h4 {
     font-size: 23px
 }
 
-.users h4,
+.users h4 {
+    font-size: 19px;
+}
+
 .users h5 {
-    font-size: 12px
+    font-size: 17px;
 }
 
 .users {
@@ -916,9 +932,9 @@ footer ul li {
     line-height: 120%;
     border-radius: 17px;
     background: #fff;
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) inset;
-    -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) inset;
-    -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) inset
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) !important;
+    -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13)  !important;
+    -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13)  !important;
 }
 
 .contact .form button,
