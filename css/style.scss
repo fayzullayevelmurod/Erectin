@@ -625,6 +625,8 @@ header {
 }
 
 .other_effekt {
+    max-width: 258px;
+    margin: 0 auto;
     text-align: center;
     h4 {
         color: #1664FD;
@@ -635,6 +637,8 @@ header {
     }
 
     ul {
+        margin-top: 17px;
+        margin-bottom: 36px;
         li {
             color: #3C4B5D;
             font-size: 14px;
@@ -643,6 +647,8 @@ header {
             line-height: normal;
         }
         span {
+            margin: 7px auto;
+            display: block;
             width: 6px;
             height: 6px;
             border-radius: 50%;
@@ -651,7 +657,263 @@ header {
     }
 }
 
+.discount_card_in {
+    padding-top: 22px;
+    border-radius: 17px;
+    background: #1664FD;
+    text-align: center;
+
+    .discount_card_in_border {
+        max-width: 266px;
+        margin: 0 auto 20px auto;
+    }
+
+    .discount_icon {
+        margin: 0 auto 12px auto;
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    img {
+        margin: 12px 0;
+    }
+
+    p {
+        color: #FFF;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    h5 {
+        color: #F56C75;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.other_effekt_bottom {
+    padding: 16px 30px 23px 30px;
+    border-radius: 17px;
+    background: #F1F1F1;
+    text-align: center;
+    .other_effekt_bottom_img {
+        margin: 0 auto 6px auto;
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+    }
+    h4 {
+        color: #3C4B5D;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    h3 {
+        margin: 12px auto;
+        color: #1664FD;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.users {
+    max-width: 252px;
+    margin: 27px auto 0 auto;
+    text-align: center;
+    h4 {
+        color: #1664FD;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 28px;
+    }
+
+    h5 {
+        color: #3C4B5D;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 9px;
+    }
+
+    .users_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        margin-bottom: 16px;
+    }
+
+    p {
+        color: #3C4B5D;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 145.023%; /* 14.502px */
+        margin-bottom: 33px;
+    }
+}
+
+.users_bottom {
+    border-radius: 17px;
+    background: #FBB97D;
+    padding: 23px 30px;
+    h5 {
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 18px;
+    }
+
+    h4 {
+        color: #FFF;
+        text-align: center;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration-line: strikethrough;
+
+        del {
+            text-decoration: line-through;
+        }
+    }
+}
+
+.choose_product {
+    text-align: center;
+    .choose_title {
+        margin: 29px auto 27px auto;        
+        h4 {
+            color: #3C4B5D;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 237.023%; /* 47.405px */
+        }
+    
+        p {
+            color: #3C4B5D;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 237.023%;
+        }
+    }
+
+    .choose_product_card_in {
+        margin-bottom: 6px;
+        padding: 21px 0 15px 0;
+        border-radius: 17px;
+        background: #1664FD;
+        text-align: center;
+
+        h5 {
+            color: #FFF;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 237.023%; /* 28.443px */
+            margin-bottom: 6px;
+        }
+
+        img {
+            margin: 12px auto;
+        }
+
+        p {
+            margin-bottom: 6px;
+            color: #FFF;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 124.023%; /* 14.883px */
+
+            del {
+                text-decoration: line-through;
+            }
+        }
+
+        span {
+            display: block;
+            margin: 11px auto;
+            background: #FFF;
+            width: 213px;
+            height: 1px;
+        }
+
+        button {
+            cursor: pointer;
+            border: none;
+            margin: 5px auto 14px auto;
+            width: 209px;
+            height: 59px;
+            color: #3C4B5D;
+            text-align: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            border-radius: 17px;
+            background: #FFF;
+            line-height: 237.023%; /* 47.405px */
+        }
+
+        h6 {
+            color: #9DBCFC;
+            text-align: center;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 237.023%; /* 28.443px */
+        }
+    }
+
+    .choose_product_card_in.two {
+        background: #38C558;
+
+        h6 {
+            color: #134B20;
+        }
+    }
+    .choose_product_card_in.three {
+        background: #2C4477;
+
+        img {
+            width: 218px;
+            height: 240px;
+        }
+
+        h6 {
+            color: #9DBCFC;
+        }
+    }
+}
+
 .contact {
+    margin-top: 44px;
     padding: 0 32px;
     .contact_title {
         text-align: center;
