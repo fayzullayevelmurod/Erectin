@@ -481,3 +481,270 @@ header {
         margin-top: 22px;
     }
 }
+
+
+
+
+
+.korea {
+    margin-top: 24px;
+    padding: 0 31px;
+    .korea_card {
+        margin-bottom: 27px;
+        text-align: center;
+        h4 {
+            margin-bottom: 13px;
+            color: #1664FD;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+
+        img {
+            margin: 0 auto;
+            border-radius: 14px;
+            box-shadow: 0px 4px 121px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        h5 {
+            margin-top: 13px;
+            color: #3C4B5D;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        
+        p {
+            margin-top: 13px;
+            color: #3C4B5D;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+.problem {
+    margin-bottom: 21px;
+    padding: 21px 41px 14px 41px;
+    border-radius: 17px;
+    background: #F1F1F1;
+    h4 {
+        max-width: 196px;
+        color: #1664FD;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 12px;
+    }
+
+    h5 {
+        max-width: 174px;
+        color: #3A495A;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 23px;
+    }
+    
+    ul {
+        li {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            .problem_img {
+                display: flex;
+                align-items: center;
+                width: 31px;
+                justify-content: center;
+                height: 31px;
+                border-radius: 50%;
+                background-color: #fff;
+            }
+            span {
+                max-width: 171px;
+                color: #3C4B5E;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+}
+
+.effekt {
+    max-width: 258px;
+    margin: 0 auto;
+    text-align: center;
+    h3 {
+        color: #1664FD;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 9px;
+    }
+
+    p {
+        margin-bottom: 24px;
+        color: #3C4B5D;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    span {
+        display: block;
+        margin-bottom: 24px;
+        color: #3C4B5D;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    img {
+        margin: 0 auto 18px auto;
+    }
+}
+
+.other_effekt {
+    text-align: center;
+    h4 {
+        color: #1664FD;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    ul {
+        li {
+            color: #3C4B5D;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        span {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: #1664FD;
+        }
+    }
+}
+
+.contact {
+    padding: 0 32px;
+    .contact_title {
+        text-align: center;
+        h4 {
+            color: #3C4B5D;
+            text-align: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            margin-bottom: 25px;
+        }
+
+        p {
+            color: #3C4B5D;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            margin-bottom: 25px;
+        }
+    }
+
+    .form {
+        margin-bottom: 44px;
+        input {
+            width: 100%;
+            margin-bottom: 11px;
+            border: none;
+            text-align: center;
+            height: 72px;
+            color: #3C4B5D;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 120%; /* 19.2px */
+            border-radius: 17px;
+            background: #FFF;
+            box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.13) inset;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        button {
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            height: 72px;
+            color: #FFF;
+            text-align: center;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%; /* 19.2px */
+            border-radius: 17px;
+            background: radial-gradient(76.16% 76.16% at 31.97% 19.67%, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 69.79%, rgba(255, 255, 255, 0.00) 100%), #38C558;
+            box-shadow: 4px 12px 62px 0px rgba(14, 63, 25, 0.36);
+        }
+    }
+}
+
+
+footer {
+    ul {
+        li {
+            margin-bottom: 7px;
+            padding: 30px 33px;
+            border-radius: 17px;
+            background: #2C4477;
+
+            h4 {
+                color: #FFF;
+                text-align: center;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                margin-bottom: 14px;
+            }
+
+            p {
+                color: #FFF;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+            }
+        }
+    }
+}
