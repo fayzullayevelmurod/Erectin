@@ -112,9 +112,9 @@ header {
 #home {
     .card_top {
         // background-image: url('../images/home_top_card_1.webp');
-        // background-repeat: no-repeat;
-        // background-size: cover;
-        // background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         border-radius: 17px;
         height: 280px;
         display: flex;
@@ -123,15 +123,15 @@ header {
         overflow: hidden;
         position: relative;
         
-        img {
-            width: 100% !important;
-            height: 100% !important;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
-        }
+        // img {
+        //     width: 100% !important;
+        //     height: 100% !important;
+        //     object-fit: cover;
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     z-index: -1;
+        // }
     
         ul {
             display: flex;
