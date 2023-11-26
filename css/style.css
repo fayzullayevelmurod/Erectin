@@ -922,7 +922,6 @@ footer ul li {
 .contact .form input {
     width: 100%;
     margin-bottom: 11px;
-    border: none;
     height: 72px;
     color: #3c4b5d;
     text-align: center;
@@ -933,9 +932,10 @@ footer ul li {
     border-radius: 17px;
     background: #fff;
     border: 1px solid rgba(0, 0, 0, .13);
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) inset !important;
+    box-shadow: 4px 12px 62px 0 rgba(14, 63, 25, .13);
+    /* box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13);
     -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) inset !important;
-    -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) inset !important;
+    -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) inset !important; */
 }
 
 .contact .form button,
