@@ -791,6 +791,10 @@ footer ul li h4 {
     text-decoration: line-through
 }
 
+.choose_product .choose_product_card_in p b {
+    font-size: 15px;
+}
+
 .choose_product .choose_title {
     margin: 29px auto 27px
 }
@@ -849,7 +853,10 @@ footer ul li h4 {
     height: 1px
 }
 
-.choose_product .choose_product_card_in button {
+.choose_product .choose_product_card_in a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     border: none;
     margin: 5px auto 14px;
