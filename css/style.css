@@ -817,9 +817,9 @@ footer ul li h4 {
 
 .choose_product .choose_product_card_in h5 {
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 237.023%;
     margin-bottom: 6px
 }
@@ -831,7 +831,7 @@ footer ul li h4 {
 .choose_product .choose_product_card_in p {
     margin-bottom: 6px;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 124.023%
@@ -932,9 +932,10 @@ footer ul li {
     line-height: 120%;
     border-radius: 17px;
     background: #fff;
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) !important;
-    -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13)  !important;
-    -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13)  !important;
+    border: 1px solid rgba(0, 0, 0, .13);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) inset !important;
+    -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) inset !important;
+    -moz-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .13) inset !important;
 }
 
 .contact .form button,
